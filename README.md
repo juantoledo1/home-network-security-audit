@@ -1,4 +1,4 @@
-# home-network-security-audit
+# Home Network Security Audit
 
 Security and performance assessment of a residential two-story network:
 dual-band ISP router/modem, single-band WiFi repeater, and IoT devices
@@ -148,9 +148,12 @@ nmcli device reapply <iface>
 - [x] DNS switched to Cloudflare `1.1.1.1` / `1.0.0.1` (laptop)
 - [x] Network topology fully mapped
 - [x] Optimal repeater placement identified
-- [ ] Pending: disable UPnP + change router admin password (requires router access)
-- [ ] Pending: request ISP to disable public hotspot
-- [ ] Pending: change IP camera credentials
+- [x] Disable UPnP + change router admin password
+- [x] Change IP camera credentials
+- [ ] Pending: request ISP to disable the public hotspot
+
+> Note: UPnP, router admin password, and camera credentials remediation
+> applied on the same day as this audit.
 
 ## Notes
 
